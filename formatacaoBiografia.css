@@ -1,0 +1,232 @@
+				body {
+					background-image: url(fundo.jpg);
+				}	
+
+				@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+				h1#txtPrinc {
+					position: absolute;
+					left: 26%;
+					top: 29%;
+					font-family: Apple Chancery, cursive;
+					color: white;
+					font-size: 80px;
+				}
+
+				h2 	{
+					position: absolute;
+					left: 37%;
+					top: 44%;
+					font-family: 'Permanent Marker', cursive;
+					color: white;
+					font-size: 60px;
+				}
+
+				img#fb {
+					position: fixed;
+					right: 1%;
+					top: 32%;
+					width: 40px;
+					height: 40px;
+					z-index: 2;
+				}
+
+				img#ig {
+					position: fixed;
+					right: 1%;
+					top: 42%;
+					width: 40px;
+					height: 40px;
+					z-index: 2;
+				}
+
+				img#tw {
+					position: fixed;
+					right: 1%;
+					top: 52%;
+					width: 40px;
+					height: 40px;
+					z-index: 2;
+				}
+
+				img#ct {
+					position: fixed;
+					right: 1%;
+					top: 62%;
+					width: 40px;
+					height: 40px;
+					z-index: 2;
+				}
+
+				div#bio {
+					position: absolute;
+					left: -0.5%;
+					top: 110%;
+					width: 1356px;
+					height: 2000px;
+					background-color: #ffffff;
+				}
+
+				img#bioimg {
+					position: absolute;
+					left: 35%;
+					top: 2%;
+				}
+
+				p#biografia {
+					width: 1000px;
+					text-align: justify;
+					position: absolute;
+					left: 14%;
+					top: 32%;
+					font-size: 25px;
+					font-family: 'Quicksand', sans-serif;
+				}
+
+				img#imgBio {
+					position: absolute;
+					left: 5%;
+					top: 12%;
+				}
+
+				h2#Artur {
+					position: absolute;
+					left: 35%;
+					top: 15%;
+					color: #198f8e;
+					font-size: 60px;
+				}
+
+				h3#anos {
+					position: absolute;
+					left: 40%;
+					top: 20%;
+					font-size: 40px;
+					color: #198f8e;
+					font-family: 'Permanent Marker', cursive;;
+				}
+
+				div#rodape {
+					position: absolute;
+					left: -0.5%;
+					top: 420%;
+					width: 1356px;
+					height: 120px;
+					background-color: #879393;
+				}
+
+				h1#txtRodape {
+					position: absolute;
+					left: 35%;
+					top: 23%;
+					color: #586e6e;
+				}
+
+				li, a, button {
+					font-family: 'Nunito Sans', sans-serif;
+					font-weight: 500;
+					font-size: 16px;
+					color: #ffffff;
+					text-decoration: none;
+				}
+
+				header {
+					display: flex;
+					justify-content: flex-end;
+					align-items: center;
+					padding: 10px;
+				}
+
+				.logo {
+					cursor: pointer;
+					margin-right: auto;
+				}
+
+				.navlinks {
+					list-style: none;
+				}
+
+				.navlinks li {
+					display: inline-block;
+					padding: 0px 20px;
+				}
+
+				.navlinksli li a {
+					transition: all 0.3s ease 0s;
+				}
+
+				.navlinksli li a:hover {
+					color: #0088a9
+				}
+
+				button {
+					padding: 9px 25px;
+					background-color: rgba(0,136,169,1);
+					border: none;
+					border-radius: 50px;
+					cursor: pointer;
+					transition: all 0.3s ease 0s;
+				}
+
+				button:hover {
+					background-color: rgba(0,136,169,0.8);	
+				}
+
+				.popup {
+					position: fixed;
+					top: 0; bottom: 0;
+					left: 0; right: 0;
+					margin: auto;
+					width: 800px;
+					height: 500px;
+					padding: 15px;
+					border: solid 5px #198f8e;
+					background-color: #e4e4e4;
+					display: none;
+				}
+
+				a#historialink {
+					font-size: 20px;
+					padding: 9px 17px;
+					background-color: darkred;
+					border: none;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+
+				a#projetoslink {
+					font-size: 20px;
+					padding: 9px 17px;
+					background-color: darkred;
+					border: none;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+
+				a#biografialink {
+					font-size: 20px;
+					padding: 9px 17px;
+					background-color: darkred;
+					border: none;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+				
+				h1#Artur {
+					position: absolute;
+					top: 0.01%;
+					opacity: 0;
+				}
+
+				img#topo {
+					position: fixed;
+					right: 1%;
+					top: 90%;
+					width: 60px;
+					height: 60px;
+					z-index: 2;
+				}
+
+				h1#BiografiaH {
+					opacity: 0;
+				}

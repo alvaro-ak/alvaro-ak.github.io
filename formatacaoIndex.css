@@ -1,0 +1,331 @@
+				body {
+					background-image: url(fundo.jpg);
+
+				}
+
+				@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+				@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+				h1#txtPrinc {
+					position: absolute;
+					left: 26%;
+					top: 15%;
+					font-family: 'BlackChancery';
+					color: darkred;
+					font-size: 200px;
+				}
+		
+				img#topo {
+					position: fixed;
+					right: 1%;
+					top: 90%;
+					width: 60px;
+					height: 60px;
+					z-index: 2;
+				}
+
+				h1#subir {
+					position: absolute;
+					top: 0.01%;
+					opacity: 0;
+				}
+				div#imgbranca {
+					position: absolute;
+					left: -0.5%;
+					top: 110%;
+					width: 1356px;
+					height: 1400px;
+					background-color: #ffffff;
+				}
+
+				img#cursos {
+					position: absolute;
+					left: 35%;
+					top: 2%;
+				}
+				p#enredoTx {
+					position: absolute;
+					font-size: 25px;
+					top: 20%
+					left: 10%;
+				}
+				
+				a#linkpdf {
+					font-size: 20px;
+					padding: 9px 17px;
+					background-color: darkred;
+					border: none;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+
+				img#dg {
+					position: absolute;
+					left: 12%;
+					top: 10%;
+					width: 330px;
+					height: 500px;
+				}
+
+				img#mmc {
+					position: absolute;
+					left: 39%;
+					top: 10%;
+					width: 330px;
+					height: 500px;
+				}
+
+				img#idr {
+					position: absolute;
+					right: 10%;
+					top: 10%;
+					width: 330px;
+					height: 500px;
+				}
+
+				img#ora {
+					position: absolute;
+					left: 21%;
+					top: 48%;
+					width: 330px;
+					height: 500px;
+				}
+
+				img#igl {
+					position: absolute;
+					left: 50%;
+					top: 48%;
+					width: 330px;
+					height: 500px;
+				}
+
+				div#imgpreta {
+					position: absolute;
+					left: -0.5%;
+					top: 330%;
+					width: 1356px;
+					height: 2300px;
+					background-color: #ffffff;
+				}
+
+				div#imgpretz {
+					position: absolute;
+					left: -0.5%;
+					top: 780%;
+					width: 1356px;
+					height: 1100px;
+					background-color: #e4e4e4;
+				}
+				img#sz {
+					position: absolute;
+					left: 12%;
+					top: 10%;
+					width: 330px;
+					height: 500px;
+				}
+
+				img#br {
+					position: absolute;
+					left: 39%;
+					top: 10%;
+					width: 330px;
+					height: 500px;
+				}
+
+				img#rv {
+					position: absolute;
+					right: 10%;
+					top: 10%;
+					width: 330px;
+					height: 500px;
+				}
+
+				img#dc {
+					position: absolute;
+					left: 21%;
+					top: 48%;
+					width: 330px;
+					height: 500px;
+				}
+
+				img#av {
+					position: absolute;
+					left: 50%;
+					top: 48%;
+					width: 330px;
+					height: 500px;
+				}				
+
+				div#br{
+				position: absolute;
+				left: 21%;
+				top: 48%;
+				width: 330px;
+				height: 400px;
+				}
+
+				img#Projetos {
+					position: absolute;
+					left: 33%;
+					top: 2%;
+					font-size: 65px;
+					font-family: ;
+					color: #f00;
+				}
+
+				h1#CursosL {
+					color: #fff;
+				}
+
+				h1#ProjetosH {
+					position: absolute;
+					color: #e4e4e4;
+				}
+				
+				div#biblio {
+					position: absolute;
+					left: -0.5%;
+					top: 690%;
+					width: 1356px;
+					height: 530px;
+					background-color: #ffffff;
+				}
+
+				img#bio {
+					position: absolute;
+					left: 35%;
+					top: 4%;
+				}
+
+				@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+				p#AutoBio {
+					width: 1000px;
+					text-align: justify;
+					position: absolute;
+					left: 12%;
+					top: 34%;
+					font-size: 25px;
+					font-family: 'Luminari', fantasy;
+				}
+
+				div#rodape {
+					position: absolute;
+					left: -0.5%;
+					top: 950%;
+					width: 1356px;
+					height: 120px;
+					background-color: #879393;
+				}
+
+				h1#txtRodape {
+					position: absolute;
+					left: 35%;
+					top: 23%;
+					color: #586e6e;
+				}
+
+				h1#BiografiaH {
+					color: white;
+				}
+
+				a#historialink {
+					font-size: 20px;
+					padding: 9px 17px;
+					background-color: darkred;
+					border: none;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+
+				a#projetoslink {
+					font-size: 20px;
+					padding: 9px 17px;
+					background-color: darkred;
+					border: none;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+
+				a#biografialink {
+					font-size: 20px;
+					padding: 9px 17px;
+					background-color: darkred;
+					border: none;
+					border-radius: 25px;
+					cursor: pointer;
+				}
+				
+				@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+				li, a, button {
+					font-family: 'Nunito Sans', sans-serif;
+					font-weight: 500;
+					font-size: 16px;
+					color: #ffffff;
+					text-decoration: none;
+				}
+
+				header {
+					display: flex;
+					justify-content: flex-end;
+					align-items: center;
+					padding: 10px;
+				}
+
+				.logo {
+					cursor: pointer;
+					margin-right: auto;
+				}
+
+				.navlinks {
+					list-style: none;
+				}
+
+				.navlinks li {
+					display: inline-block;
+					padding: 0px 10px;
+				}
+
+				.navlinksli li a {
+					transition: all 0.3s ease 0s;
+				}
+
+				.navlinksli li a:hover {
+					color: #0088a9
+				}
+
+				button {
+					padding: 9px 25px;
+					background-color: rgba(0,136,169,1);
+					border: none;
+					border-radius: 50px;
+					cursor: pointer;
+					transition: all 0.3s ease 0s;
+				}
+
+				button:hover {
+					background-color: rgba(0,136,169,0.8);	
+				}
+				
+				.zoom {
+					overflow: hidden;
+				}
+
+				.zoom img {
+					max-width: 100%;
+					-moz-transition: all 0.3s;
+					-webkit-transition: all 0.3s;
+					transition: all 0.3s; 
+				}
+
+				.zoom:hover img {
+					-moz-transform: scale(1.1);
+					-webkit-transform: scale(1.1);
+					transition: scale(1.1);
+				}
+
+				a#biolink {
+					color: blue;
+					font-size: 20px;
+				}
